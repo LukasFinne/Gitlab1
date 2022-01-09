@@ -1,0 +1,23 @@
+git init
+git add README.md 
+git commit -m "Initial commit"
+git branch feature1
+git switch feature1
+git commit -a -m "Add dog and switch moose to mouse"
+git switch main
+git commit -a -m "Change moose to mahmut"
+git merge feature1
+git add README.md
+git commit -m "Merge main and feature1"
+git tag -a extinct -m "extinct animals"
+git reset --hard e124
+git branch feature2
+git commit -a -m "Add uppercase letter to the beginning of all animal names"
+git switch feature2
+git add fix1.txt
+git commit -m "Add fix1.txt"
+git add fix2.txt
+git commit -m "Add fix2.txt"
+git cherry-pick 14ce
+git remote add gitlab https://github.com/Sempron1/Gitlab1.git
+git push gitlab --all
